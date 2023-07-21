@@ -1,0 +1,37 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  background-color: #f2f2f2;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+
+
+/* Styling the buttons */
+button {
+  display: block;
+  background-color: #f2f2f2; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  margin-bottom: 10px; /* Add some space between buttons */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 16px; /* Set the font size */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove text underline */
+}
+
+/* Button hover effect */
+.button:hover {
+  border-left: blue; /* Darken the background color on hover */
+}
+
+/* Active button */
+.button.active {
+  border-left: rgb(53, 53, 242); /* Dark green color for active button */
+}

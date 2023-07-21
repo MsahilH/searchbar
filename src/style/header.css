@@ -1,0 +1,43 @@
+/* src/components/Header.css */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    
+  }
+  
+  .search-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(216, 214, 214, 0.2);
+    z-index: 1;
+  }
+  
+  .search-dropdown a {
+    color: rgb(195, 194, 194);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .search-dropdown a:hover {
+    background-color: #f1f1f1;
+  }
+  
